@@ -1,4 +1,12 @@
+package dev.impacta.repositories;
 
-public class LivroRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.devsuperior.biblioteca.entities.Livro;
+
+public interface LivroRepository extends JpaRepository<Livro, Long>{
 
 }
+
+
+
